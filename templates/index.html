@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+
+    <link rel="stylesheet" href = "{% static 'style.css' %}">
+</head>
+<body>
+    <h1>HELLO,WORLD!</h1>
+    <!-- {% for feat in feature %}
+    <p>NAME={{feat.name}}</p>
+    <p>ID={{feat.id}}</p>
+    <p>DEATILS={{feat.details}}</p>
+     {% if feat.is_true %}
+    <p>IT IS TRUE</p>
+    {% else %}
+    <p>THE feature Is False</p>
+    {% endif %}
+    {% endfor %} -->
+    <!-- <form action="counter" method="post">
+          {% csrf_token %}    
+        <textarea name="text" rows="10" cols="10"></textarea><br/>
+        <input type="submit"/> -->
+<a href="/register">REGISTER</a> 
+<a href="/login">LOGIN</a>
+    </form>
+</body>
+</html>
